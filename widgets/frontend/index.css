@@ -40,6 +40,8 @@ h1{
 
 }
 
-.div-background {
-
+.clock p{
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
 }

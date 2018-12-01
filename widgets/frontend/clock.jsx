@@ -23,8 +23,9 @@ class Clock extends React.Component {
       <div>
       <div className ="div-background">
         <h1>Our Clock!</h1>
-        <h2 className="clock">{hours} : {minutes} : {seconds}</h2>
-        <h3 className="clock"> {day} {month} {monthDay} {year}</h3>
+
+        <p><h2 className="clock">{hours} : {minutes} : {seconds}</h2></p>
+        <p><h3 className="clock"> {day} {month} {monthDay} {year}</h3></p>
         </div>
       </div>
     );
